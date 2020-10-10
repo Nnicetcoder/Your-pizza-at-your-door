@@ -10,7 +10,8 @@ font-family: sans-serif;
  width: 800px;
  background-color:rgb(0,0,0,0.9);
  margin: auto;
- color: #FFFFFF
+ height: 50px;
+ color: #FFFFFF;
  padding:10px 0px 10px 0px;
  text-align: center;
  border-radius: 15px 15px 0px 0px; 
@@ -114,10 +115,10 @@ background:transparent;
 border:0;
 color:#c5ecfd;
 border-radius: 6px; 
-border-bottom: 2px solid #c5ec
+border-bottom: 2px solid #c5ecfd;
 
 
-	
+
 }
 
 
