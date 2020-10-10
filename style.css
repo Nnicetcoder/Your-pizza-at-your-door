@@ -95,8 +95,14 @@ text-align: center;
  color: black;
 }
 
+#select{
+text-align: left;
+margin-left: 100px;
+}
+.option{
+width:180px;
 
-
+}
 
 
 
