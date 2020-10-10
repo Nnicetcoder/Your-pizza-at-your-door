@@ -62,7 +62,7 @@ text-align: center;
  border:0;
  border-bottom: 2px solid #c5ecfd;
  padding: 10px;
- color: black;
+ color: #c5ecfd;
 
 }
 .lastname{
@@ -77,7 +77,7 @@ text-align: center;
  border:0;
  border-bottom: 2px solid #c5ecfd;
  padding: 10px;
- color: black;
+ color: #c5ecfd;
 }
 
 .location{
@@ -93,7 +93,7 @@ text-align: center;
  border:0;
  border-bottom: 2px solid #c5ecfd;
  padding: 10px;
- color: black;
+ color: #c5ecfd;
 }
 
 #select{
@@ -141,3 +141,18 @@ color:#c5ecfd;
 border-radius: 6px; 
 border-bottom: 2px solid #c5ecfd;
 }
+
+.submit{
+width: 100px;
+font-weight:200; 
+background-color:#4b5aa7; 
+border-radius: 6px;
+border-left:2px solid #c5ecfd; 
+border-bottom:2px solid #c5ecba;
+left:-200px;
+}
+
+
+
+
+
