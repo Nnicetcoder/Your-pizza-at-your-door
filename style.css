@@ -101,7 +101,7 @@ text-align: left;
 margin-left: 100px;
 }
 .option{
-width:180px;
+width:160px;
 background:transparent;
 border:0;
 color:#c5ecfd;
@@ -110,7 +110,7 @@ border-bottom: 2px solid #c5ecfd;
 }
 
 .option2{
-width:180px;
+width:160px;
 background:transparent;
 border:0;
 color:#c5ecfd;
@@ -118,11 +118,26 @@ border-radius: 6px;
 border-bottom: 2px solid #c5ecfd;
 }
 .option3{
-width:180px;
+width:160px;
 background:transparent;
 border:0;
 color:#c5ecfd;
 border-radius: 6px; 
 border-bottom: 2px solid #c5ecfd;
 }
-
+.option4{
+width:100px;
+background:transparent;
+border:0;
+color:#c5ecfd;
+border-radius: 6px; 
+border-bottom: 2px solid #c5ecfd;
+}
+.option5{
+width:100px;
+background:transparent;
+border:0;
+color:#c5ecfd;
+border-radius: 6px; 
+border-bottom: 2px solid #c5ecfd;
+}
