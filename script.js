@@ -3,7 +3,7 @@ $(document).ready(function(){
       var value=$(this).text();
   if ($(this).find('option:selected').val() === 'YES') {
       alert('HOLA');
-
+ else}{alert("Your pizza will not be delivered.")}
    }
        	    
          
@@ -60,8 +60,12 @@ var large=$("selected#large").val();
 })
 
 
+$(".submit").submit(function(event){
+
+var price=$('select[name=option]')+$('select[name=option2]')+$('select[name=option3]')*$('selct[name=Quantity]')
 
 
+})
 
 
 
