@@ -60,12 +60,12 @@ var large=$("selected#large").val();
 })
 
 
-$(".submit").submit(function(event){
+$(".submit").submit(function(){
 
-var price=$('select[name=option]')+$('select[name=option2]')+$('select[name=option3]')*$('selct[name=Quantity]')
+function myfunction(('select[name=option]'),('select[name=option2]'),('select[name=option3]'),('select[name=Quantity]){alert("return $('select[name=option]')+$('select[name=option2]')+$('select[name=option3]')*$('selct[name=Quantity]')
 
 
-})
+");});
 
 
 
