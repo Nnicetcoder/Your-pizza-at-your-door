@@ -42,27 +42,28 @@ var glutenfree=$("selected#gluten free").val();
 
 $(".option3").click(function(){
 
-
-var beef=$("selected#small").val();
-var chicken=$("selected#medium").val();
-var pork=$("selected#large").val();
-var vegy=$("selected#vegy").val();
+var beef;chicken;pork;vegy;
+ beef =$("selected#small").val();
+ chicken =$("selected#medium").val();
+ pork =$("selected#large").val();
+ vegy =$("selected#vegy").val();
 })
 
 
 $(".option").click(function(){
 
-
-var small=$("selected#small").val();
-var medium=$("selected#medium").val();
-var large=$("selected#large").val();
+var small;medium;large;
+ small = parsInt( $("selected#small").val());
+ medium = parsInt($("selected#medium").val());
+ large =  parsInt( $("selected#large").val());
 
 })
 
 
 $(".submit").submit(function(){
 
-function myfunction(('select[name=option]'),('select[name=option2]'),('select[name=option3]'),('select[name=Quantity]){alert("return $('select[name=option]')+$('select[name=option2]')+$('select[name=option3]')*$('selct[name=Quantity]')
+var totalPrice=(('select[name=option]')+('select[name=option2]')+('select[name=option3]'))*('select[name=Quantity]');
+function myfunction(){alert('the total price for your pizza is'+' '+ totalPrice)}
 
 
 ");});
