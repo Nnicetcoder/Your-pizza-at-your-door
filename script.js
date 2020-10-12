@@ -8,45 +8,45 @@ $(document).ready(function(){
        	    
          
    
-  }
+  
 
-   }
-$(".option").click(function(){
+   
+$(".option").select(function(){
 
-
-var small=$("selected#small").val();
-var medium=$("selected#medium").val();
-var large=$("selected#large").val();
-
-})
-
-$(".option").click(function(){
-
-
-var small=$("selected#small").val();
-var medium=$("selected#medium").val();
-var large=$("selected#large").val();
+var small ; medium; large;
+ small =parsInt($("selected#small").val());
+ medium =parsInt($("selected#medium").val());
+ large =parsInt($("selected#large").val());
 
 })
 
+$(".option").select(function(){
 
-$(".option2").click(function(){
-
-
-var crispy=$("selected#crispy").val();
-var stuffed=$("selected#stuffed").val();
-var glutenfree=$("selected#gluten free").val();
+var small; medium; large;
+ small= parsInt($("selected#small").val());
+ medium= parsInt($("selected#medium").val());
+ large=parsInt($("selected#large").val());
 
 })
 
 
-$(".option3").click(function(){
+$(".option2").select(function(){
+
+var crispy; stuffed;glutenfree;
+ crispy= parsInt($("selected#crispy").val());
+ stuffed= parsInt($("selected#stuffed").val());
+ glutenfree=parsInt($("selected#gluten free").val());
+
+})
+
+
+$(".option3").select(function(){
 
 var beef;chicken;pork;vegy;
- beef =$("selected#small").val();
- chicken =$("selected#medium").val();
- pork =$("selected#large").val();
- vegy =$("selected#vegy").val();
+ beef = parsInt($("selected#small").val());
+ chicken = parsInt($("selected#medium").val());
+ pork = parsInt($("selected#large").val());
+ vegy = parsInt($("selected#vegy").val());
 })
 
 
